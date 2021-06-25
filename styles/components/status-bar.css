@@ -1,0 +1,17 @@
+.status-bar {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-bar__time {
+    font-size: 15px;
+}
+
+.status-bar__icons img:not(:last-child) {
+    margin-right: 5px;
+}
