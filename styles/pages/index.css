@@ -3,4 +3,4 @@
 /* Folder Components*/
 @import url('../components/status-bar.css');
 @import url('../components/bottom-navbar.css');
-
+@import '../components/movie.css';
