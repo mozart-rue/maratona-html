@@ -1,0 +1,5 @@
+/* Folder uteis */
+@import '../uteis/index.css'; 
+/* Folder Components*/
+@import url('../components/status-bar.css');
+@import '../components/profile.css';
