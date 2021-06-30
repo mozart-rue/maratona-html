@@ -3,3 +3,20 @@
 /* Folder Components*/
 @import url('../components/status-bar.css');
 @import '../components/profile.css';
+
+#animation {
+    animation-name: pageload;
+    animation-duration: 1000ms;
+}
+
+@keyframes pageload {
+    from {
+        transform:scale(0.2);
+        opacity: 0;
+    }
+
+    to {
+        transform:scale(1);
+        opacity: 1;
+    }
+}
