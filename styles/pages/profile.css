@@ -1,0 +1,16 @@
+
+@import '../uteis/index.css'; 
+@import url('../components/status-bar.css');
+@import '../components/edit-navbar.css';
+@import '../components/profile.css';
+
+.edit-navbar {
+    margin-top: 13px;
+}
+
+.center {
+    display: flex;
+    height: calc(100vh - 95px);
+    justify-content: center;
+    align-items: center;
+}
