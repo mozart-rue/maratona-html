@@ -1,0 +1,41 @@
+@import '../uteis/index.css'; 
+@import url('../components/status-bar.css');
+@import url('../components/bottom-navbar.css');
+@import '../components/profile.css';
+@import '../components/share.css';
+@import '../components/settings.css';
+
+
+/* body {
+    position: relative;
+}
+
+.bottom-navbar__background {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} */
+
+.manage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.manage__profiles {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff81;
+    line-height: 30px;
+    margin-left: 6px;
+}
+
+.profile {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.settings {
+    margin-bottom: 81px;
+}
